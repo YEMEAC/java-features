@@ -13,7 +13,6 @@ public class Main {
     public static void main(String[] args) {
 
         Class<Dog> dogClass = Dog.class;
-        boolean found=false;
 
         if (dogClass.isAnnotationPresent(AnimalDetails.class)) {
             Annotation annotation = dogClass.getAnnotation(AnimalDetails.class);
