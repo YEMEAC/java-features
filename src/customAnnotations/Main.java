@@ -5,8 +5,9 @@ import java.lang.reflect.Method;
 
 
 /**
- * @author Yeison Melo {@literal <mailto:yeison.melo@cabonline.com/>}
- * Example Java custom anontations using Java reflection
+ * @author Yeison Melo
+ * Example Java custom anontations using Java reflection to inspect the
+ * classes and its members
  */
 public class Main {
 
